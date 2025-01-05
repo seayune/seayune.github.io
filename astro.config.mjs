@@ -6,6 +6,7 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://seayune.com',
    vite: {
     plugins: [tailwindcss()],
   },
@@ -20,6 +21,5 @@ export default defineConfig({
     skipInline: false,
     drafts: true
   },
-  site: 'https://seayune.com',
   integrations: [sitemap(), mdx()]
 });
