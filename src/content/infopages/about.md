@@ -1,14 +1,13 @@
 ---
 page: About
-pubDate: 2024-02-28
+pubDate: 2025-01-04
 ---
 
 
-See, I was born back in 1899, not too far from Chicago, in a place called Oak Park, Illinois. Now, I ain't one for fancy words, so I'll just give it to you straight.
+Arthur Siyun Li (b.1998) is a Hong Kong-Canadian pianist and composer based in Brooklyn, New York.
 
-I started out as a journalist, you know, covering stories from all around the world. I even worked as an ambulance driver during World War I. Those experiences, they left a mark on me, and they sure influenced my writing.
+A student of pianist Alexandre Moutouzkine and composer/soprano Susan Botti, Li is the first to receive concurrent graduate degrees from the Manhattan School of Music (MSM), completing a dual M.M. in composition and piano in May ‘24. He has received mentorship from pianists Wha Kyung Byun, Anthony de Mare and Margaret Kampmeier, and from composers Chen Yi and Chinary Ung.
 
-Now, when it comes to my writing style, I like to keep it simple, like I'm having a conversation with you right now. None of that fancy stuff. My stories often touch on themes like courage, masculinity, and what it means to be human.
+In tandem with his own compositional practice and through collaborations with living composers, Li has emerged as an active performer and exponent of new and contemporary music. As the winner of the Eisenberg-Fried Concerto Competition at MSM, he made his concerto debut in October ‘23 with MSM’s OPUS 130 Orchestra and conductor David Chan performing Alfred Schnittke’s *Concerto for Piano and String Orchestra*. Other recent performance highlights include selections from John Cage’s *Sonatas and Interludes* for prepared piano at National Sawdust, solo and chamber performances of new works at the Tenri Cultural Institute and MSM’s Neidorff-Karpati Hall with the BeComEnsemble, solo and two-piano works of Chin, Kondo, and Lutosławski for Mostly Modern Festival at Zankel Hall, and the Scotia Festival of Music’s Highlight Concerts at Dalhousie Arts Center.
 
-Some folks say my most famous works are "The Old Man and the Sea," "A Farewell to Arms," and "For Whom the Bell Tolls." Heck, I even won the Nobel Prize in Literature. But all in all, I reckon my writing is about life, the good, the bad, and the ugly.
-
+Li’s recent composition, *enshrinement*, for oboe, harp, piano, and string orchestra, was awarded the Carl Kanter Prize for Orchestral Composition at the Manhattan School of Music in May ‘24. As the winner of the Tactus Commission Prize, his work, *like plucked strings /*, for large ensemble, was commissioned and performed by MSM’s resident contemporary ensemble, Tactus, in December ’23.
