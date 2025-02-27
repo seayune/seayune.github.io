@@ -1,6 +1,6 @@
 ---
 page: DPA
-pubDate: 2025-01-19
+pubDate: 2024-02-28
 ---
 # Data Processing Agreement (DPA)
 

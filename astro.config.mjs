@@ -19,6 +19,6 @@ export default defineConfig({
     skipInline: false,
     drafts: true
   },
-  site: 'https://seayune.com',
+  site: 'https://yourdomain.com',
   integrations: [sitemap(), mdx()]
 });
