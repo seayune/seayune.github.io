@@ -6,6 +6,8 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   vite: {
+    assetsInclude: ['**/*.woff2'],
+    base: '/', // Ensure this is correct
     plugins: [tailwindcss()],
   },
   markdown: {

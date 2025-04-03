@@ -4,8 +4,8 @@ import { AstroSeo } from "@astrolib/seo";
 ---
 
 <AstroSeo
-  title="Your Page Title"
-  description="A detailed description of your page content."
+  title="Arthur Siyun Li"
+  description="New-York based performer and composer."
   canonical="https://yoursite.com/current-page"
   openGraph={{
     url: "https://yoursite.com/current-page",
@@ -33,24 +33,22 @@ import { AstroSeo } from "@astrolib/seo";
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <!-- Basic Meta Tags -->
-<title>Your Website Title</title>
+<title>Arthur Siyun Li</title>
 <meta
   name="description"
-  content="A brief description of your website content."
+  content="New York-based performer and composer."
 />
 <meta name="keywords" content="keyword1, keyword2, keyword3" />
 <meta name="author" content="Your Name or Company Name" />
 <!-- Favicons -->
-<link rel="icon" href="/favicon.ico" sizes="any" />
-<link rel="icon" href="/icon.svg" type="image/svg+xml" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="manifest" href="/manifest.webmanifest" />
-<!-- Favicon for IE -->
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<!-- Favicons for different sizes -->
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+<head>
+  <!-- Primary favicon -->
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+  <!-- Fallback for older browsers -->
+  <link rel="alternate icon" href="/images/favicon.ico" type="image/x-icon" />
+  <!-- iOS Safari -->
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+</head>
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.yourwebsite.com/" />
