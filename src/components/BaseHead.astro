@@ -6,10 +6,10 @@ import { AstroSeo } from "@astrolib/seo";
 <AstroSeo
   title="Arthur Siyun Li"
   description="New-York based performer and composer."
-  canonical="https://yoursite.com/current-page"
+  canonical="https://seayune.com/Home"
   openGraph={{
-    url: "https://yoursite.com/current-page",
-    title: "Your Page Title",
+    url: "https://yoursite.com/Home",
+    title: "Arthur Siyun Li",
     description: "A detailed description of your page content.",
     images: [
       {
@@ -20,7 +20,7 @@ import { AstroSeo } from "@astrolib/seo";
         type: "image/jpeg",
       },
     ],
-    site_name: "Your Site Name",
+    site_name: "Arthur Siyun Li",
     type: "website",
     locale: "en_US",
   }}
@@ -40,13 +40,18 @@ import { AstroSeo } from "@astrolib/seo";
 />
 <meta name="keywords" content="keyword1, keyword2, keyword3" />
 <meta name="author" content="Your Name or Company Name" />
-<!-- Favicons -->
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="shortcut icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<meta name="apple-mobile-web-app-title" content="seayune" />
-<link rel="manifest" href="/site.webmanifest" />
- 
+
+<!-- Primary SVG favicon (modern browsers) -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+<!-- Legacy ICO fallback -->
+<link rel="alternate icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Apple Touch Icon -->
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<!-- Web App Manifest -->
+<link rel="manifest" href="/site.webmanifest">
+
 <!-- Alpine JS -->
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
