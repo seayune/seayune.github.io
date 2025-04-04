@@ -73,9 +73,9 @@
   }
 }
 
-@layer components {
-  .content-width {
-    @apply w-full max-w-[91%] md:max-w-[85%] lg:max-w-[80%] xl:max-w-[1000px];
+@layer utilities {
+  .edge-alignment {
+    @apply w-full px-[4.5%] md:px-[7.5%] xl:px-[12%];
   }
 }
 
