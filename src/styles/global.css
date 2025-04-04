@@ -5,8 +5,8 @@
 @layer components {
   .prose-styles {
     @apply prose text-sm mt-8 font-serif text-zinc-700 font-normal prose-a:text-zinc-700 prose-a:no-underline prose-a:font-serif prose-a:italic  prose-headings:text-base prose-headings:font-medium prose-headings:font-sans prose-headings:uppercase prose-headings:tracking-tighter prose-a:hover:text-accent-600;
+    }
   }
-}
 
 /* Define EB Garamond (serif) */
 @font-face {
@@ -64,6 +64,18 @@
 @supports (font-variation-settings: normal) {
   :root {
     font-family: "EB Garamond", serif; /* Only variable font */
+  }
+}
+
+@media (max-width: 768px) {
+  .content-width {
+    width: 91.3% !important; /* Your exact observed mobile width */
+  }
+}
+
+@layer components {
+  .content-width {
+    @apply w-full max-w-[91%] md:max-w-[85%] lg:max-w-[80%] xl:max-w-[1000px];
   }
 }
 
