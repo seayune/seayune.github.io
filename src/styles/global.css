@@ -79,6 +79,12 @@
   }
 }
 
+@media (min-width: 768px) {
+  .bio-image-wrapper {
+    padding-top: 3.5rem; /* Matches your h1 height */
+  }
+}
+
 :root {
   font-family: "PP Mori", sans-serif; /* Fallback to PP Mori */
   font-feature-settings: "liga" 1, "calt" 1, "kern" 1; /* Basic features only */
