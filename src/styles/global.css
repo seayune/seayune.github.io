@@ -85,6 +85,26 @@
   }
 }
 
+/* Smooth dropdown animation */
+#mobile-menu {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#mobile-menu:not(.hidden) {
+  opacity: 1;
+  transform: translateY(0);
+}
+#mobile-menu.hidden {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+/* Larger touch targets on mobile */
+@media (max-width: 1024px) {
+  #mobile-menu a {
+    padding: 0.5rem 0;
+  }
+}
+
 :root {
   font-family: "PP Mori", sans-serif; /* Fallback to PP Mori */
   font-feature-settings: "liga" 1, "calt" 1, "kern" 1; /* Basic features only */
