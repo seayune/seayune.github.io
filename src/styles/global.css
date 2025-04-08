@@ -75,7 +75,7 @@
 
 @layer utilities {
   .edge-alignment {
-    @apply w-full px-[4.5%] md:px-[7.5%] xl:px-[12%];
+    @apply w-full px-[4.5%] md:px-[12%];
   }
 }
 
