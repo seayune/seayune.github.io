@@ -47,18 +47,7 @@
   --font-serif: "EB Garamond", serif; /* Changed to EB Garamond */
 
   /* Colors */
-  --color-black: #010101;
-  --color-accent-50: #e6f5e6; /* Lightest green */
-  --color-accent-100: #ccebcc;
-  --color-accent-200: #99d699;
-  --color-accent-300: #66c266;
-  --color-accent-400: #33ad33;
-  --color-accent-500: #009900;
-  --color-accent-600: #228B22; /* Your chosen green (#228B22) */
-  --color-accent-700: #1a6d1a;
-  --color-accent-800: #134f13;
-  --color-accent-900: #0b310b;
-  --color-accent-950: #041204; /* Darkest green */
+  --color-accent-600: #d0081b;
 }
 
 @supports (font-variation-settings: normal) {
