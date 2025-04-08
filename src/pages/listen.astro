@@ -3,16 +3,57 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout>
-<section class="edge-alignment mx-auto pt-0.3 pb-1">
+<section class="edge-alignment mx-auto pt-0.3 pb-1 mb-24">
   <div class="flex flex-col md:flex-row gap-8 md:gap-10 items-stretch">
-    <div class="w-full md:w-[32%] flex-shrink-0 flex flex-col">
-        <h1 class="text-medium font-serif mb-4">[composition] <span class="italic">The Year Has Flown By</span> (2022)</h1>
-        <p class="text-sm text-zinc-700">
-          Fragments After Haiku for Alto Flute (doubling Flute in C), Baritone, and Piano. Harlem, NY.
-        </p>
+    <div class="w-full md:w-[38%] flex-shrink-0 flex flex-col">
+        <h1 class="text-medium font-serif mb-4">Alfred Schnittke - <span class="italic">Concerto for Piano and Strings</span></h1>
+        <div class="prose text-xs text-zinc-700">
+            <p>
+            Performed October 11th, 2023 at Neidorff-Karpati Hall, Manhattan School of Music
+            <p>
+            Concerto debut with Conductor David Chan, concertmaster of the Met, and OPUS130, as a winner of the Eisenberg-Fried Concerto Competition
+            </p>
+        </div>
     </div>
-    <div class="w-full md:w-[68%] flex flex-col">
-      <div class="aspect-w-16 aspect-h-9 max-w-none">
+    <div class="w-full md:w-[62%] flex flex-col">
+      <div class="relative pb-[56.25%] max-w-none">
+          <iframe 
+            width="100%" 
+            height="400"
+            src="https://www.youtube.com/embed/WEOTs3XCtn0"
+            title="Alfred Schnittke - Concerto for Piano and Strings (Arthur Siyun Li)" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            loading="lazy" {/* Lazy loading */}
+            class="absolute top-0 left-0 w-full h-full" {/* Fill container */}
+          ></iframe>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="edge-alignment mx-auto pt-0.3 pb-1 mt-12">
+  <div class="flex flex-col md:flex-row gap-8 md:gap-10 items-stretch">
+    <div class="w-full md:w-[38%] flex-shrink-0 flex flex-col">
+        <h1 class="text-medium font-serif mb-4">[composition] <span class="italic">The Year Has Flown By</span> (2022)</h1>
+        <div class="prose text-xs text-zinc-700">
+            <p>
+            Fragments After Haiku for Alto Flute (doubling Flute in C), Baritone, and Piano (Harlem, NY)
+            </p>
+            <p>
+            Premiered April 18, 2022 at Ades Performance Space, Manhattan School of Music
+            </p>
+            <p>
+            Savannah Mae Gentry, flutes <br> Gabriel Garcia, baritone <br> Arthur Siyun Li, piano
+            </p>
+            <p>
+            零. a clearing / <br> 一. (between each wave / my children / disappear) <br> 二. <span class="italic">son</span> dews over / open mouths <br> 三. hatsu yuki ya / suisen no ha no / tawamu made <br> 四. you gather / chrysanthemums
+            </p>
+        </div>
+    </div>
+    <div class="w-full md:w-[62%] flex flex-col">
+      <div class="relative pb-[56.25%] max-w-none">
           <iframe 
             width="100%" 
             height="400"
@@ -21,7 +62,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen
-            class="w-full"
+            loading="lazy" {/* Lazy loading */}
+            class="absolute top-0 left-0 w-full h-full" {/* Fill container */}
           ></iframe>
         </div>
     </div>
