@@ -4,7 +4,7 @@
 
 @layer components {
   .prose-styles {
-    @apply prose text-sm mt-8 font-serif text-[#293674] font-normal prose-a:text-[#293674] prose-a:no-underline prose-a:font-serif prose-a:italic  prose-headings:text-base prose-headings:font-medium prose-headings:font-sans prose-headings:uppercase prose-headings:tracking-tighter prose-a:hover:text-accent-600;
+    @apply prose text-sm mt-8 font-serif text-[#334391] font-normal prose-a:text-[#334391] prose-a:no-underline prose-a:font-serif prose-a:italic  prose-headings:text-base prose-headings:font-medium prose-headings:font-sans prose-headings:uppercase prose-headings:tracking-tighter prose-a:hover:text-accent-600;
     }
   }
 
